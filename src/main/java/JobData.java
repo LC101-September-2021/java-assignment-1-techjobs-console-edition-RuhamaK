@@ -106,6 +106,10 @@ public class JobData {
                     jobs.add(row);
                     break;
                 }
+                else if(row.get(key).toLowerCase().contains(value.toLowerCase())){
+                    jobs.add(row);
+                            break;
+                }
             }
         }
         return jobs;
