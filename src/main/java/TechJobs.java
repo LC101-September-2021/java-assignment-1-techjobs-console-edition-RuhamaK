@@ -127,7 +127,7 @@ public class TechJobs {
                 for (Map.Entry<String, String> jobData : jobResult.entrySet()) {
                     System.out.println(jobData.getKey() + ":" + jobData.getValue());
                 }
-                System.out.println("*****" + "\n");
+                System.out.println("*****");
             }
 //System.out.println("printJobs is not implemented yet");
         }
